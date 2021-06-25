@@ -6,7 +6,7 @@ This project lets you search for users using Github api and view their info in a
 Built using React.js version 17.
 
 ### Netlify link
-
+https://github-finder351.netlify.app/
 
 ### Installation
 - Clone the repository

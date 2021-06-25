@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Github Finder
 
 This project lets you search for users using Github api and view their info in a user-friendly way.
 

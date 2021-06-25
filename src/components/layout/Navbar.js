@@ -6,8 +6,10 @@ const Navbar = ({ icon, title }) => {
   return (
     <nav className="navbar bg-primary">
       <h1>
-        <i className={icon} />
-        {'\t' + title}
+        <Link to="/">
+          <i className={icon} />
+          {'\t' + title}
+        </Link>
       </h1>
       <ul>
         <li>
@@ -21,7 +23,7 @@ const Navbar = ({ icon, title }) => {
   );
 };
 
-// These props will be applied if the component did not receive props from outside
+// These props will be used if the component did not receive props from outside
 Navbar.defaultProps = {
   title: 'Github Finder',
   icon: 'fab fa-github',
